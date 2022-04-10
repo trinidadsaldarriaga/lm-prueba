@@ -12,5 +12,6 @@ int main(void){
     printf("%s",buf);
     fclose(fd);
     cout<<" "<<endl;
+    cout<<"========Fin del programa=========="<<endl;
 
 }
