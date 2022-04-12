@@ -15,6 +15,7 @@ int main(void){
     printf("%s",buf);
     fclose(fd);
     cout<<" "<<endl;
+<<<<<<< HEAD
     
     //Ejercicio 1
     int16_t arr[] = {1,2,3};//valores que quiero sumar
@@ -24,6 +25,8 @@ int main(void){
 
     cout<<" "<<endl;
     cout<<"=========Fin del programa========="<<endl;
+=======
+>>>>>>> cf4f0440fb56113e62b40cbd9beefc0c8f76e6a1
 
 }
 int32_t Sumar_Array (int16_t* x, int16_t xn){
