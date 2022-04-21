@@ -4,7 +4,7 @@
 #include "matematica.h"
 using namespace std;
 
-int32_t Sumar_Array(int16_t *x, int16_t xn);
+
 int main(void){
 
     char buf[100];
@@ -26,17 +26,4 @@ int main(void){
     cout<<" "<<endl;
     cout<<"=========Fin del programa========="<<endl;
     
-}
-int32_t Sumar_Array (int16_t* x, int16_t xn){
-    int32_t suma = 0;
-    for(int32_t i = 0; i<xn; i++)
-    {
-        suma = suma + *x; //voy sumando los elementos del array
-        x++; //voy avanzando en la posición del array
-
-        //con índice
-        //suma = suma + x[i];
-    }
-    printf("La suma del array es %d",suma);
-    return suma;
 }
