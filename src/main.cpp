@@ -23,6 +23,12 @@ int main(void){
     int largo = sizeof(arr)/sizeof(int16_t); //quiero que sea de 16 bits
     suma = Sumar_Array(arr,largo);
 
+    //Ejercicio 3
+    int32_t mult = 0;
+    int16_t n1 = 10;
+    int16_t n2 = 5;
+    mult = Multiplicar_Sat(n1,n2);
+
     cout<<" "<<endl;
     cout<<"=========Fin del programa========="<<endl;
     
