@@ -20,6 +20,11 @@ int32_t Sumar_Array (int* x, int xn){
 int16_t Multiplicar_Sat (int16_t n1, int16_t n2)
 {
     int16_t n3 = n1*n2;
-    printf("La multiplicacion da: %d",n3);
-    return n3;
+    if (n3<n1){
+        return -1; //overflow
+    }
+    else{
+        return n3;
+    }
+    
 }
